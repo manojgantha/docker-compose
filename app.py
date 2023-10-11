@@ -20,4 +20,4 @@ def get_hit_count():
 @app.route('/')
 def hello():
     count = get_hit_count()
-    return 'Hello Docker! I have been seen {} times.\n'.format(count)
+    return 'Welcome to python code! I have been seen {} times.\n'.format(count)
